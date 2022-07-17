@@ -1,0 +1,16 @@
+apps:
+  name: 'go-template'
+  version: '1.0.0'
+server:
+  port: 9090
+database:
+  url: 'go-template'
+  port: '5432'
+  databaseName: 'go-template'
+  username: 'go-template'
+  password: 'go-template'
+  schema: 'go-template'
+  connectionTimeout: '20s'
+  maxIdleConnection: 5
+  maxOpenConnection: 10
+  debugMode: true
