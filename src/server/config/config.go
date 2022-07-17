@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	"github.com/spf13/viper"
-	"go-template/src/constanta"
+	"loki/src/constanta"
 )
 
 func ConfigApps(path string) *DefaultConfig {

@@ -2,8 +2,8 @@ package container
 
 import (
 	"fmt"
-	"go-template/src/server/config"
-	"go-template/src/server/database"
+	"loki/src/server/config"
+	"loki/src/server/database"
 )
 
 type DefaultContainer struct {

@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"go-template/src/server/container"
+	"loki/src/server/container"
 )
 
 type Handler struct {

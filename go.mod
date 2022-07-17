@@ -1,4 +1,4 @@
-module go-template
+module loki
 
 go 1.17
 

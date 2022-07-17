@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-template/src/server"
-	"go-template/src/server/container"
+	"loki/src/server"
+	"loki/src/server/container"
 )
 
 func main() {

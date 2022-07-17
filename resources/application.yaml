@@ -1,15 +1,15 @@
 apps:
-  name: 'go-template'
+  name: 'loki'
   version: '1.0.0'
 server:
   port: 9090
 database:
-  url: 'go-template'
+  url: 'loki'
   port: '5432'
-  databaseName: 'go-template'
-  username: 'go-template'
-  password: 'go-template'
-  schema: 'go-template'
+  databaseName: 'loki'
+  username: 'loki'
+  password: 'loki'
+  schema: 'loki'
   connectionTimeout: '20s'
   maxIdleConnection: 5
   maxOpenConnection: 10

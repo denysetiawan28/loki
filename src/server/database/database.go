@@ -2,11 +2,11 @@ package database
 
 import (
 	"fmt"
-	"go-template/src/server/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
+	"loki/src/server/config"
 )
 
 type Database struct {

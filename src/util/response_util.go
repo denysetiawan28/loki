@@ -1,8 +1,8 @@
 package util
 
 import (
-	"go-template/src/constanta"
-	"go-template/src/payload/response"
+	"loki/src/constanta"
+	"loki/src/payload/response"
 	"net/http"
 )
 

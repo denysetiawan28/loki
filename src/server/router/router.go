@@ -1,8 +1,7 @@
 package router
 
 import (
-	"github.com/labstack/echo/v4"
-	"go-template/src/handler"
+	"loki/src/handler"
 	"net/http"
 )
 

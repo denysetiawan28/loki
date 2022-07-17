@@ -2,14 +2,12 @@ package server
 
 import (
 	"fmt"
-	"github.com/go-playground/validator/v10"
-	"github.com/labstack/echo/v4"
 	"github.com/labstack/gommon/log"
-	"go-template/src/handler"
-	"go-template/src/server/container"
-	"go-template/src/server/middleware"
-	"go-template/src/server/router"
 	"golang.org/x/net/context"
+	"loki/src/handler"
+	"loki/src/server/container"
+	"loki/src/server/middleware"
+	"loki/src/server/router"
 	"net/http"
 	"os"
 	"os/signal"
